@@ -1,6 +1,10 @@
-public class ornek4 {
+package com.example.javaornekler;
+
+import java.util.Scanner;
+
+public class Ornek11 {
     public static void main(String[] args) {
-     Scanner oku=new Scanner(System.in);
+        Scanner oku=new Scanner(System.in);
         float sayi1,sayi2,sonuc=0;
         int secim;
 
@@ -36,8 +40,5 @@ public class ornek4 {
             System.out.println("Geçerli seçim yapınız.");
         }
         System.out.println("Sonuç: "+sonuc);
-    }
-}
-
     }
 }
